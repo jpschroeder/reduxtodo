@@ -8,5 +8,6 @@ The base TodoMVC implementation comes from the redux examples [Here](https://git
 ## Running
 
 ```
+npm install
 npm start
 ```
