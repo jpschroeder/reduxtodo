@@ -5,7 +5,9 @@
   "scripts": {
     "start": "node server.js",
     "test": "NODE_ENV=test mocha --recursive --compilers js:babel-core/register --require ./test/setup.js",
-    "test:watch": "npm test -- --watch"
+    "test:watch": "npm test -- --watch",
+    "clean": "rm -rf ./dist",
+    "package": "rm -rf ./dist && mkdir ./dist && mkdir ./dist/static && webpack && mv ./dist/bundle.js ./dist/static/bundle.js && cp ./index.html ./dist/index.html"
   },
   "repository": {
     "type": "git",
