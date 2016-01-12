@@ -2,9 +2,19 @@ import { ADD_TODO, DELETE_TODO, EDIT_TODO, COMPLETE_TODO, COMPLETE_ALL, CLEAR_CO
 
 const initialState = [
   {
-    text: 'Use Redux',
+    text: 'Test Todo #1',
     completed: false,
     id: 0
+  },
+  {
+    text: 'Test Todo #2',
+    completed: false,
+    id: 1
+  },
+  {
+    text: 'Test Todo #3',
+    completed: false,
+    id: 2
   }
 ]
 
